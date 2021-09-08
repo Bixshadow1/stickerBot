@@ -120,8 +120,8 @@ async def rounded_rectangle(rectangle, xy, corner_radius, fill=None, outline=Non
 @some_sticker_bot.on_message(filters.command("start"))
 async def start_handler(c: Client, m: Message):
     await m.reply_text(
-        "🇺🇲I will help you to quote from the messages. \n Admin: @zehnli bot. \n Bots collection: @Mening_botlarim"
-        "\n 🇺🇿Men xabarlardan iqtibos yaratishga yordam beraman. \n Admin: @zehnli bot. \n  Botlar to'plami: @Mening_botlarim "
+        "🇺🇲I will help you to quote from the messages. \n Admin: @zehnlibot. \n Bots collection: @Mening_botlarim"
+        "\n 🇺🇿Men xabarlardan iqtibos yaratishga yordam beraman. \n Admin: @zehnlibot. \n  Botlar to'plami: @Mening_botlarim "
         "\n Thank you.",
         disable_web_page_preview=True
     )
@@ -130,8 +130,8 @@ async def start_handler(c: Client, m: Message):
 @some_sticker_bot.on_message(filters.command("help"))
 async def help_handler(c: Client, m: Message):
     await m.reply_text(
-        "🇺🇲I will help you to quote from the messages. \n Admin: @zehnli bot. \n Bots collection: @Mening_botlarim"
-        "\n 🇺🇿Men xabarlardan iqtibos yaratishga yordam beraman. \n Admin: @zehnli bot. \n  Botlar to'plami: @Mening_botlarim "
+        "🇺🇲I will help you to quote from the messages. \n Admin: @zehnlibot. \n Bots collection: @Mening_botlarim"
+        "\n 🇺🇿Men xabarlardan iqtibos yaratishga yordam beraman. \n Admin: @zehnlibot. \n  Botlar to'plami: @Mening_botlarim "
         "\n Thank you.",
         disable_web_page_preview=True
     )
